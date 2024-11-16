@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>go cart shopping</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+        <section id="header">
+            <a href="#"><img src="img/logo2.png" class="logo" alt=""></a>
+
+            <div>
+                <ui id="navbar">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="active" href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                    <a href="#" id="close"><i class="fas fa-times"></i></a>
+                </ui>
+            </div>
+
+            <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+            </div>
+
+        </section>
+
+        <section id="cart-header">
+
+            <h2>#Cart</h2>
+
+            <p>Use your coupon code & SAVE upto 60%</p>
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>remove</td>
+                        <td>image</td>
+                        <td>product</td>
+                        <td>price</td>
+                        <td>quantity</td>
+                        <td>subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href=""><i class="fas fa-times-circle"></i></a>
+                        </td>
+                        <td><img src="img/sunflower oil.jpeg" alt=""></td>
+                        <td>sunflower oil</td>
+                        <td>₹120/-</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹120/-</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href=""><i class="fas fa-times-circle"></i></a>
+                        </td>
+                        <td><img src="img/banana.jpeg" alt=""></td>
+                        <td>banana</td>
+                        <td>₹60/-</td>
+                        <td><input type="number" value="1"></td>
+                        <td>₹60/-</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>apply coupon</h3>
+                <div>
+                    <input type="text" placeholder=" enter your coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>cart subtotal</td>
+                        <td>₹180/-</td>
+                    </tr>
+                    <tr>
+                        <td>shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>total</strong></td>
+                        <td><strong>₹180</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">proceed to checkout</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo2.png" alt="">
+                <h4>contact</h4>
+                <p><strong>Address</strong>  -___________ </p>
+                <p><strong>Phone no.</strong>-__________</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery information</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Trems & conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign in</a>
+                <a href="#">Vier cart</a>
+                <a href="#">Track my order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From app store & play store </p>
+                <div class="row">
+                    <img src="img/as.png" alt="">
+                    <img src="img/gp.png" alt="">
+                </div>
+                <p>secured pyment gateways</p>
+                <img src="img/pm.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p>© 2023, go cart.com  </p>
+            </div>
+        </footer>
+    
+   <script src="master.js"></script>
+</body>
+</html>
